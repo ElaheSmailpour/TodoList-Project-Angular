@@ -5,7 +5,12 @@
   <li>
     <a routerLink="projects" routerLinkActive="Active">Projects</a>
   </li>
- 
+ <li>
+   <a routerLink="/profile" routerLinkActive="Active" [queryParams]="{id:1}">Profile User 1</a>
+ </li>
+ <li>
+  <a routerLink="/profile" routerLinkActive="Active" [queryParams]="{id:2}">Profile User 2</a>
+</li>
 </ul>
 
 <router-outlet></router-outlet>
